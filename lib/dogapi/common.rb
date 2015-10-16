@@ -74,7 +74,7 @@ module Dogapi
       @application_key = application_key
       @api_host = Dogapi.find_datadog_host()
       @silent = silent
-      @timeout = timeout || 5
+      @timeout = timeout || 25
     end
 
     # Manages the HTTP connection
